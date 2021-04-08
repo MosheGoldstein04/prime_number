@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>PAGE TITLE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    
+</head>
+<body>
+    <script>
+        let t = 'odd';
+        for(var x=0;x<=100000;x++){
+            if(t == 'even'){
+                let t = 'odd';
+            }
+            else{
+                let t = 'even';
+            }
+        for(var i=2;i<x;i++){
+            let y = (x / i) % 1 == 0
+            if(y == true && t == 'odd') {
+                 break;
+            }
+            else{
+                if(i==(x-1)){
+                    console.log(x)
+                }
+                
+                
+            }
+        }
+            
+        }
+    </script>
+</body>
+</html>
