@@ -1,2 +1,2 @@
 # prime_number
- it jenorates prime numbers
+ it genorates prime numbers in the console
